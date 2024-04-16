@@ -1,0 +1,135 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+    .btn-darkblue {
+        background-color: darkblue;
+        border-color: darkblue;
+        color: white;
+    }
+
+        .btn-darkblue:hover {
+            background-color: #001f3f;
+            border-color: #001f3f;
+        }
+</style>
+
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+     
+    </div>
+    
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://btec.fpt.edu.vn/wp-content/uploads/2023/12/Banner3.jpg" class="d-block w-100" alt="blackboard image">
+
+            <div class="container">
+                <div class="carousel-caption text-start">
+                    <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://btec.fpt.edu.vn/wp-content/uploads/2023/12/Banner1.jpg" class="d-block w-100" alt="geometry image">
+
+            <div class="container">
+                <div class="carousel-caption">
+                    <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+
+            <img src="https://btec.fpt.edu.vn/wp-content/uploads/2023/12/Quy-che-tuyen-sinh.jpg" class="d-block w-100" alt="children in school">
+
+
+            <div class="container">
+                <div class="carousel-caption text-end">
+                    <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<div class="container marketing">
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">Class Management</h2>
+            <p class="lead">Manage your classes here!</p>
+        </div>
+        <div class="col-md-5">
+            <a href="/Subjects/Index">
+                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="500px" height="500px" fill="#eee" />
+                    <image href="https://assets-homepages-learning.3plearning.net/wp-content/uploads/2019/08/blog-best-classroom-management-strategies.png" width="100%" height="100%" />
+                </svg>
+            </a>
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">Course Management</h2>
+            <p class="lead">Manage your courses here!</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <a href="/Courses/Index">
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                     src="https://store.trainingindustry.com/cdn/shop/products/CPTM_MarketingAssets_Shopify_500x500_87f38fb5-6227-4108-a50d-a4cac69b9002_540x.png?v=1678292777" alt="Subjects Image">
+            </a>
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">Lecturers Management</h2>
+            <p class="lead">Manage your lecture here!</p>
+        </div>
+        <div class="col-md-5">
+            <a href="/Lecturers">
+                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="500px" height="500px" fill="#eee" />
+                    <image href="https://www.unisa.edu.au/siteassets/media-centre/teachers---shutterstock_309239105_web.jpg" width="100%" height="100%" />
+                </svg>
+            </a>
+        </div>
+    </div>
+
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">Students Management</h2>
+            <p class="lead">Manage your students here!</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <a href="/Students">
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                     src="https://assets-homepages-learning.3plearning.net/wp-content/uploads/2021/06/header-3p-classroom-management.svg" alt="Subjects Image">
+            </a>
+        </div>
+    </div>
+</div>
+
+</html>
+

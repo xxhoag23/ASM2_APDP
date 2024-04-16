@@ -1,0 +1,15 @@
+﻿
+@model Student
+
+@using (Html.BeginForm("NewStudent", "Student", FormMethod.Post))
+{
+    @Html.LabelFor(m => m.Name)
+    @Html.TextBoxFor(m => m.Name)
+    <br />
+    @Html.LabelFor(m => m.DoB)
+    @Html.TextBoxFor(m => m.DoB)
+    <br />
+    @Html.LabelFor(m => m.Class)
+    @Html.TextBoxFor(m => m.Class)
+    <input type="submit" value="Create" />
+}
